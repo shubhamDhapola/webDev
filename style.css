@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+section {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.section-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FFC107;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 110%;
+  border: 1px solid black;
+}
+
+@media (min-width: 768px) {
+  section {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  section {
+    float: left;
+    width: 33.33%;
+  }
+}
