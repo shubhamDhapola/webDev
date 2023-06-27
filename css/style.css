@@ -4,20 +4,44 @@ body {
 
 h1 {
   font-size: 36px;
+text-align: center;
 }
 
 section {
+color: black;
+  background-color: grey;
   border: 1px solid black;
   margin-bottom: 20px;
   padding: 20px;
   box-sizing: border-box;
+position: relative; 
 }
 
-.section-title {
+.section-title1 {
   position: absolute;
   top: 0;
   right: 0;
-  background-color: #FFC107;
+  background-color: pink;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 110%;
+  border: 1px solid black;
+}
+.section-title2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 110%;
+  border: 1px solid black;
+}
+.section-title3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: yellow;
   color: #333;
   padding: 5px 10px;
   font-size: 110%;
